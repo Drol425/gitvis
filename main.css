@@ -1,0 +1,253 @@
+body {
+    min-width: 520px;
+  }
+
+nav .team-title {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FAFAFF;
+    margin: auto;
+}
+
+.logoImg{
+    width: 150px;
+    height: 180px;
+}
+
+.nav-link i, p {
+    color: #FAFAFF;
+}
+
+.nav-link p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    margin: 0;
+}
+
+.nav-link .fa-pie-chart {
+    margin-left: 10px;
+}
+
+.row .tasks-block {
+    padding: 0;
+    background-color: #EBF4FF;
+}
+
+
+.header-buttons {
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-buttons button {
+    border: none;
+    margin-right: 23px;
+}
+
+.round-button {
+	box-sizing: border-box;
+	display:block;
+	width:75px;
+	height:75px;
+	padding-top: 12px;
+	line-height: 20px;
+	border: 6px solid #fff;
+	border-radius: 50%;
+	color:#f5f5f5;
+	text-align:center;
+	text-decoration:none;
+	background-color: #48BB78;;
+	font-size:20px;
+	font-weight:bold;
+	transition: all 0.3s ease;
+}
+.paddForPlay{
+    padding-left: 8px;
+}
+.round-button:hover {
+	background-color: white;
+    color: #48BB78;
+}
+
+.time-block {
+    display: flex;
+    align-items: center;
+    margin-left: 86px;
+}
+
+.task-name {
+    margin: auto;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #718096;
+}
+
+.task-time {
+    margin: 0;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 39px;
+    letter-spacing: 0.03em;
+    color: #718096;
+    background: white;
+    border: none;
+}
+
+.column {
+    width: 250px;
+    float: left;
+    padding-bottom: 100px;
+    background: #FEFDFF;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 600px;
+  }
+
+.column p {
+    text-align: center;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #4C51BF;
+}
+
+.column h5 {
+    margin: 0;
+}
+
+.portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+    margin: 5px;
+    background: #E1ECFE;
+    border-radius: 5px;
+    border: none;
+  }
+.portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+    background: #E1ECFE;
+    border: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+.portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -10px;
+    cursor: pointer;
+  }
+
+.ui-widget .ui-widget-content {
+    border: none;
+}
+
+.portlet-content {
+    padding: 0.4em;
+}
+
+.portlet-placeholder {
+    margin: 0 1em 1em 0;
+    height: 50px;
+}
+
+.task-controls button{
+    border: none;
+    background-color: inherit;
+}
+
+  @media (min-width: 768px) {
+    .navbar-container {
+      position: sticky;
+      top: 0;
+      overflow-y: auto;
+      /* height: 100vh; */
+    }
+    .navbar-container .navbar {
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      height: 100%;
+    }
+    .navbar-container .navbar-collapse {
+      align-items: flex-start;
+      margin-top: 50px;
+      width: 200px;
+      margin-left: 5px;
+    }
+    .navbar-container .nav {
+      flex-direction: column;
+      flex-wrap: nowrap;
+    }
+    .navbar-container .navbar-nav {
+      flex-direction: column !important;
+    }
+}
+
+.nav-link {
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    width: 170px;
+}
+
+.nav-item .nav-link i {
+    margin-right: 20px;
+}
+
+.tasks-block, .navbar-block {
+    padding-top: 50px;
+}
+
+
+.navbar-block {
+    background-color: #3C366B;
+}
+
+.navbar-block .navbar {
+    padding: 0;
+}
+
+.btn-add {
+    /* position: absolute; */
+    /* z-index: 20; */
+    background-color: inherit;
+    border: 1px solid #4C51BF;
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-add i {
+    font-size: 40px;
+    color: #4C51BF;
+}
