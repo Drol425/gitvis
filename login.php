@@ -117,8 +117,8 @@ if(isset($_POST['submit']))
        <form action="login.php" method="POST">
            <p class="form-title">Log In</p>
 <script src="//ulogin.ru/js/ulogin.js"></script>
-<div id="uLogin" data-ulogin="display=panel;theme=classic;fields=first_name,last_name;providers=vkontakte,instagram,facebook;hidden=;redirect_uri=http%3A%2F%2Femocion.lk3.ru%2Flogin.php;mobilebuttons=0;"></div>
-           <p class="or">or</p>
+<center><div id="uLogin" data-ulogin="display=panel;theme=classic;fields=first_name,last_name;providers=vkontakte,instagram,facebook;hidden=;redirect_uri=http%3A%2F%2Femocion.lk3.ru%2Flogin.php;mobilebuttons=0;"></div>
+     </center>      <p class="or">or</p>
            <div class="form-inputs" id="inputs">
                <input class="email" type="email" name="email" placeholder="Email or phone number" required/><br/>
                <input class="password" type="password" name="password" placeholder="Password" required/><br/>

@@ -164,5 +164,10 @@ $query =  $DB->query("SELECT id FROM users WHERE id =?", array($_COOKIE['id']));
 </html>
 <?php
 
-}}
+}}else{
+
+
+header("Location: login.php");
+
+} 
 ?>
